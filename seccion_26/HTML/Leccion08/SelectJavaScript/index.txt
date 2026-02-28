@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cambio de Navegación</title>
+        <script type="text/javascript" src="funciones.js"></script>
+    </head>
+    <body>
+        <h1>Cambio de Navegaci&oacute;n</h1>
+        <select id="selectFaq">
+            <option selected>Selecciona un FAQ</option>
+            <option value="javaFaq.html">Java FAQ</option>
+            <option value="netFaq.html">.Net FAQ</option>
+            <option value="phpFaq.html">PHP FAQ</option>
+        </select>
+    </body>
+</html>

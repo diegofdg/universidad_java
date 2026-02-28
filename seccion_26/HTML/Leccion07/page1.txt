@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Saludos desde JavaScrip</title>
+        <script type="text/javascript" src="funciones.js"></script>
+    </head>
+    <body onload="saluda();
+                escribeMensaje();">
+        <!--El texto HTML de elemento h1 se escribe de manera 
+        dinamica-->
+        <h1 id="mensajeHtml"></h1>
+    </body>
+</html>

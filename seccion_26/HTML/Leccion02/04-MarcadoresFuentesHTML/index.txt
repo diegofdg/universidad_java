@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marcadores de Fuentes</title>
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+        <h1>Marcadores de Fuentes</h1>
+        <p>
+            B: Se utiliza para poner en <b>negritas</b> al texto
+        </p>
+        <p>
+            BIG: Se utiliza para convertir a una 
+            <big>fuente m&aacute;s grande</big>
+            esto es interpretado por el navegador web
+        </p>
+        <p>
+            I: Se utiliza para convertir el texto a <i>cursiva</i>
+        </p>
+        <p>
+            S: Se utiliza para poner una <s>raya</s> en el texto 			
+        </p>
+        <p>
+            SMALL: Se utiliza para hacer el texto m&aacute;s 
+            <small>peque&ntilde;o</small>
+        </p>
+        <p>
+            STRIKE: Es el mismo resultado que s, pone una raya 
+            en el <strike>texto</strike>
+        </p>
+        <p>
+            TT: Se utiliza para dar formato de <tt>teletipo</tt>
+        como se utiliza en los monitores o impresoras antiguas
+        </p>
+        <p>
+            U: Se utiliza para <u>subrayar</u> una palabra
+        </p>
+</body>
+</html>

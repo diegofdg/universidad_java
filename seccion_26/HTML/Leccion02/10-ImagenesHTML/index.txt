@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Manejo de Im&aacute;genes</title>
+    </head>
+    <body>
+        <h1>Manejo de Im&aacute;genes</h1>
+		<p>
+			Este p&aacute;rrafo es una im&aacute;gen
+			<img src="renacer.jpg" alt="Renacer Foto" 
+			width="40" height="42" title="Renacer Foto"> 
+			en esta linea
+		</p>
+		
+		<p>
+			<img src="GlobalMentoringLogo.jpg" 
+			alt="Logo Global Mentoring" width="120" height="70" 
+			align="left" hspace="10"
+			title="Logo Global Mentoring"/>
+			
+			Global Mentoring es una empresa dedicada
+			a brindar experiencia y conocimiento por medio
+			de metodolog&iacute;as de ense&ntilde;anza de punta
+		</p>
+		
+		<br/>
+		<br/>
+		<p>
+			<a href="http://www.globalmentoring.com.mx" target="_blank">
+				<img src="GlobalMentoringLogo.jpg" 
+				alt="Logo Global Mentoring" width="120" height="70" 
+				align="right" hspace="10" border="0"
+				title="Logo Global Mentoring"/>
+			</a>
+			
+			Global Mentoring es una empresa dedicada
+			a brindar experiencia y conocimiento por medio
+			de metodolog&iacute;as de ense&ntilde;anza de punta
+		</p>
+    </body>
+</html>

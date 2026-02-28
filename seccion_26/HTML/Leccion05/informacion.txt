@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Informaci&oacute;n</title>
+        <style>
+            <!--
+            body{
+                background:#2b557d;
+                color:#FDFDFD;
+            }
+            -->
+        </style>
+    </head>
+    <body>
+        <h1>Informaci&oacute;n</h1>
+    </body>
+</html>

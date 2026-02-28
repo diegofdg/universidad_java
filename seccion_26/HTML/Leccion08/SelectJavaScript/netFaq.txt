@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>.Net FAQ</title>
+    </head>
+    <body>
+        <h1>.Net FAQ</h1>
+        <a href="index.html">Regresar al Inicio</a>
+    </body>
+</html>
+

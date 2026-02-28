@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo de Contador de Visitas</title>
+    </head>
+    <body>
+        <h1>Ejemplo de Contador de Visitas</h1>
+        <br>
+        <a href="/CookiesContador/ContadorVisitasServlet">
+          Link al Servlet Contador de Visitas
+        </a>
+    </body>
+</html>

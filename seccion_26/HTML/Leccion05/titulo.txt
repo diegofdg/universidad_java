@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>T&iacute;tulo</title>
+        <style>
+            <!--
+            body{
+                background:#d6d8da;
+            }
+            -->
+        </style>
+    </head>
+    <body>
+        <h1>T&iacute;tulo P&aacute;gina</h1>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso HTML</title>
+    </head>
+    <body>
+        <h1>Curso HTML</h1>
+        <!-- agregamos el link de regreso-->
+        <!-- el primer .. sube de html a la carpeta de cursos-->
+        <!-- el segundo .. sube de cursos a la carpeta de links-->
+        <!-- el tercer .. sube de la carpeta de links a la raiz-->
+        Regresar a <a href="../../../index.html">Index</a>
+    </body>
+</html>

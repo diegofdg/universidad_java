@@ -1,0 +1,1976 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0036)http://www.corejsf.com/jsf-tags.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  
+  <title>JSF Tags</title>
+</head>
+
+<body>
+<p>These tables are from the book <a href="http://corejsf.com/">Core JavaServer
+Faces</a> by David Geary and Cay Horstmann.</p>
+
+<p><b>Table 4–1 JSF Core Tags</b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Tag</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_view"><tt>f:view</tt> </a> </td>
+      <td>Creates the top-level view</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_subview"><tt>f:subview</tt> </a> </td>
+      <td>Creates a subview of a view</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_facet"><tt>f:facet</tt> </a> </td>
+      <td>Adds a facet to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_attribute"><tt>f:attribute</tt> </a> </td>
+      <td>Adds an attribute (key/value) to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_param"><tt>f:param</tt> </a> </td>
+      <td>Constructs a parameter component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_actionListener"><tt>f:actionListener</tt> </a> </td>
+      <td>Adds an action listener to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_actionListener"><tt>f:valueChangeListener</tt> </a> </td>
+      <td>Adds a valuechange listener to a component</td>
+    </tr>
+    <tr>
+      <td><code><a href="http://www.corejsf.com/f_propertyChangeListener">f:setPropertyChangeListener</a></code>
+        (JSF 1.2)</td>
+      <td>Adds an action listener to a component that sets a bean property to a
+        given value. </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_converter"><tt>f:converter</tt> </a> </td>
+      <td>Adds an arbitrary converter to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table6_2"><tt>f:convertDateTime</tt> </a> </td>
+      <td>Adds a datetime converter to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table6_1"><tt>f:convertNumber</tt> </a> </td>
+      <td>Adds a number converter to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_validator"><tt>f:validator</tt> </a> </td>
+      <td>Adds a validator to a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table6_3"><tt>f:validateDoubleRange</tt> </a> </td>
+      <td>Validates a double range for a component’s value</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table6_3"><tt>f:validateLength</tt> </a> </td>
+      <td>Validates the length of a component’s value</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table6_3"><tt>f:validateLongRange</tt> </a> </td>
+      <td>Validates a long range for a component’s value</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_loadBundle"><tt>f:loadBundle</tt> </a> </td>
+      <td>Loads a resource bundle, stores properties as a Map</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_22a"><tt>f:selectitems</tt> </a> </td>
+      <td>Specifies items for a select one or select many component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_22"><tt>f:selectitem</tt> </a> </td>
+      <td>Specifies an item for a select one or select many component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#f_verbatim"><tt>f:verbatim</tt> </a> </td>
+      <td>Adds markup to a JSF page</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b>Table 4–3 JSF HTML Tags</b> </p>
+
+<table border="1" id="AutoNumber2" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Tag</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_6"><tt>h:form</tt> </a> </td>
+      <td>HTML form</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_7"><tt>h:inputText</tt> </a> </td>
+      <td>Single-line text input control. <a href="http://www.corejsf.com/jsf-tags.html#Table4_8">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_7"><tt>h:inputTextArea</tt> </a> </td>
+      <td>Multiline text input control. <a href="http://www.corejsf.com/jsf-tags.html#Table4_9">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_7"><tt>h:inputSecret</tt> </a> </td>
+      <td>Password input control. <a href="http://www.corejsf.com/jsf-tags.html#Table4_8">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_7"><tt>h:inputHidden</tt> </a> </td>
+      <td>Hidden field</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_11a"><tt>h:outputLabel</tt> </a> </td>
+      <td>Label for another component for accessibility</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_18"><tt>h:outputLink</tt> </a> </td>
+      <td>HTML anchor. <a href="http://www.corejsf.com/jsf-tags.html#Table4_19">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_11"><tt>h:outputFormat</tt> </a> </td>
+      <td>Like <tt>outputText</tt>, but formats compound messages</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_11"><tt>h:outputText</tt> </a> </td>
+      <td>Single-line text output. <a href="http://www.corejsf.com/jsf-tags.html#Table4_13">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_15"><tt>h:commandButton</tt> </a> </td>
+      <td>Button: submit, reset, or pushbutton. <a href="http://www.corejsf.com/jsf-tags.html#Table4_16">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_15"><tt>h:commandLink</tt> </a> </td>
+      <td>Link that acts like a pushbutton. <a href="http://www.corejsf.com/jsf-tags.html#Table4_17">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_23"><tt>h:message</tt> </a> </td>
+      <td>Displays the most recent message for a component</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_23"><tt>h:messages</tt> </a> </td>
+      <td>Displays all messages</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_12"><tt>h:grapicImage</tt> </a> </td>
+      <td>Displays an image. <a href="http://www.corejsf.com/jsf-tags.html#Table4_13">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectOneListbox</tt> </a> </td>
+      <td>Single-select listbox. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectOneMenu</tt> </a> </td>
+      <td>Single-select menu. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectOneRadio</tt> </a> </td>
+      <td>Set of radio buttons. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectBooleanCheckbox</tt> </a> </td>
+      <td>Checkbox. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectManyCheckbox</tt> </a> </td>
+      <td>Set of checkboxes. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectManyListbox</tt> </a> </td>
+      <td>Multiselect listbox. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_21"><tt>h:selectManyMenu</tt> </a> </td>
+      <td>Multiselect menu. <a href="http://www.corejsf.com/jsf-tags.html#Table4_20">Examples</a></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_24"><tt>h:panelGrid</tt> </a> </td>
+      <td>HTML table</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_25"><tt>h:panelGroup</tt> </a> </td>
+      <td>Two or more components that are laid out as one</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table5_1"><tt>h:dataTable</tt> </a> </td>
+      <td>A feature-rich table control</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table5_1a"><tt>h:column</tt> </a> </td>
+      <td>Column in a dataTable</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_3">Table 4–4 Basic Attributes</a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="25%">
+    <col width="50%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Component Types</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>id</tt> </td>
+      <td>A (25)</td>
+      <td>Identifier for a component</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt> </td>
+      <td>A (25)</td>
+      <td>Reference to the component that can be used in a backing bean</td>
+    </tr>
+    <tr>
+      <td><tt>rendered</tt> </td>
+      <td>A (25)</td>
+      <td>A boolean; false suppresses rendering</td>
+    </tr>
+    <tr>
+      <td><tt>styleClass</tt> </td>
+      <td>A (23)</td>
+      <td>Cascading stylesheet (CSS) class name</td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>I, O, C (19)</td>
+      <td>A component’s value, typically a value binding</td>
+    </tr>
+    <tr>
+      <td><tt>valueChangeListener</tt> </td>
+      <td>I (11)</td>
+      <td>A method binding to a method that responds to value changes</td>
+    </tr>
+    <tr>
+      <td><tt>converter</tt> </td>
+      <td>I, O (15)</td>
+      <td>Converter class name</td>
+    </tr>
+    <tr>
+      <td><tt>validator</tt> </td>
+      <td>I (11)</td>
+      <td>Class name of a validator that’s created and attached to a
+        component</td>
+    </tr>
+    <tr>
+      <td><tt>required</tt> </td>
+      <td>I (11)</td>
+      <td>A boolean; if true, requires a value to be entered in the associated
+        field</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>A = all, I = input, O = output, C = commands, (n) = number of tags with
+attribute</p>
+
+<p><b><a name="Table4_4">Table 4–5 HTML 4.0 Pass-through Attributes</a>
+</b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>accesskey</tt> (14)</td>
+      <td>A key, typically combined with a system-defined metakey, that gives
+        focus to an element</td>
+    </tr>
+    <tr>
+      <td><tt>accept</tt> (1)</td>
+      <td>Comma-separated list of content types for a form</td>
+    </tr>
+    <tr>
+      <td><tt>accept-charset</tt> (1)</td>
+      <td>Comma- or space-separated list of character encodings for a form. The
+        <tt>accept-charset</tt> attribute is specified with the JSF HTML
+        attribute named <tt>acceptcharset</tt>.</td>
+    </tr>
+    <tr>
+      <td><tt>alt</tt> (4)</td>
+      <td>Alternative text for nontextual elements such as images or
+      applets</td>
+    </tr>
+    <tr>
+      <td><tt>border</tt> (4)</td>
+      <td>Pixel value for an element’s border width</td>
+    </tr>
+    <tr>
+      <td><tt>charset</tt> (3)</td>
+      <td>Character encoding for a linked resource</td>
+    </tr>
+    <tr>
+      <td><tt>coords</tt> (2)</td>
+      <td>Coordinates for an element whose shape is a rectangle, circle, or
+        polygon</td>
+    </tr>
+    <tr>
+      <td><tt>dir</tt> (18)</td>
+      <td>Direction for text. Valid values are <tt>ltr</tt> (left to right) and
+        <tt>rtl</tt> (right to left).</td>
+    </tr>
+    <tr>
+      <td><tt>disabled</tt> (11)</td>
+      <td>Disabled state of an input element or button</td>
+    </tr>
+    <tr>
+      <td><tt>hreflang</tt> (2)</td>
+      <td>Base language of a resource specified with the <tt>href</tt>
+        attribute; <tt>hreflang</tt> may only be used with <tt>href</tt>.</td>
+    </tr>
+    <tr>
+      <td><tt>lang</tt> (20)</td>
+      <td>Base language of an element’s attributes and text</td>
+    </tr>
+    <tr>
+      <td><tt>maxlength</tt> (2)</td>
+      <td>Maximum number of characters for text fields</td>
+    </tr>
+    <tr>
+      <td><tt>readonly</tt> (11)</td>
+      <td>Read-only state of an input field; text can be selected in a readonly
+        field but not edited</td>
+    </tr>
+    <tr>
+      <td><tt>rel</tt> (2)</td>
+      <td>Relationship between the current document and a link specified with
+        the <tt>href</tt> attribute</td>
+    </tr>
+    <tr>
+      <td><tt>rev</tt> (2)</td>
+      <td>Reverse link from the anchor specified with <tt>href</tt> to the
+        current document. The value of the attribute is a space-separated list
+        of link types.</td>
+    </tr>
+    <tr>
+      <td><tt>rows</tt> (1)</td>
+      <td>Number of visible rows in a text area. <tt>h:dataTable</tt> has a
+        <tt>rows</tt> attribute, but it’s not an HTML pass-through
+        attribute.</td>
+    </tr>
+    <tr>
+      <td><tt>shape</tt> (2)</td>
+      <td>Shape of a region. Valid values: <tt>default</tt>, <tt>rect</tt>,
+        <tt>circle</tt>, <tt>poly</tt>. (default signifies the entire
+      region)</td>
+    </tr>
+    <tr>
+      <td><tt>size</tt> (4)</td>
+      <td>Size of an input field</td>
+    </tr>
+    <tr>
+      <td><tt>style</tt> (23)</td>
+      <td>Inline style information</td>
+    </tr>
+    <tr>
+      <td><tt>tabindex</tt> (14)</td>
+      <td>Numerical value specifying a tab index</td>
+    </tr>
+    <tr>
+      <td><tt>target</tt> (3)</td>
+      <td>The name of a frame in which a document is opened</td>
+    </tr>
+    <tr>
+      <td><tt>title</tt> (22)</td>
+      <td>A title, used for accessibility, that describes an element. Visual
+        browsers typically create tooltips for the title’s value</td>
+    </tr>
+    <tr>
+      <td><tt>type</tt> (4)</td>
+      <td>Type of a link; for example, <tt>"stylesheet"</tt></td>
+    </tr>
+    <tr>
+      <td><tt>width</tt> (3)</td>
+      <td>Width of an element</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>(n) = number of tags with attribute</p>
+
+<p><b><a name="Table4_5">Table 4–6 DHTML Event Attributes</a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt> (14)</td>
+      <td>Element loses focus</td>
+    </tr>
+    <tr>
+      <td><tt>onchange</tt> (11)</td>
+      <td>Element’s value changes</td>
+    </tr>
+    <tr>
+      <td><tt>onclick</tt> (17)</td>
+      <td>Mouse button is clicked over the element</td>
+    </tr>
+    <tr>
+      <td><tt>ondblclick</tt> (18)</td>
+      <td>Mouse button is double-clicked over the element</td>
+    </tr>
+    <tr>
+      <td><tt>onfocus</tt> (14)</td>
+      <td>Element receives focus</td>
+    </tr>
+    <tr>
+      <td><tt>onkeydown</tt> (18)</td>
+      <td>Key is pressed</td>
+    </tr>
+    <tr>
+      <td><tt>onkeypress</tt> (18)</td>
+      <td>Key is pressed and subsequently released</td>
+    </tr>
+    <tr>
+      <td><tt>onkeyup</tt> (18)</td>
+      <td>Key is released</td>
+    </tr>
+    <tr>
+      <td><tt>onmousedown</tt> (18)</td>
+      <td>Mouse button is pressed over the element</td>
+    </tr>
+    <tr>
+      <td><tt>onmousemove</tt> (18)</td>
+      <td>Mouse moves over the element</td>
+    </tr>
+    <tr>
+      <td><tt>onmouseout</tt> (18)</td>
+      <td>Mouse leaves the element’s area</td>
+    </tr>
+    <tr>
+      <td><tt>onmouseover</tt> (18)</td>
+      <td>Mouse moves onto an element</td>
+    </tr>
+    <tr>
+      <td><tt>onmouseup</tt> (18)</td>
+      <td>Mouse button is released</td>
+    </tr>
+    <tr>
+      <td><tt>onreset</tt> (1)</td>
+      <td>Form is reset</td>
+    </tr>
+    <tr>
+      <td><tt>onselect</tt> (11)</td>
+      <td>Text is selected in an input field</td>
+    </tr>
+    <tr>
+      <td><tt>onsubmit</tt> (1)</td>
+      <td>Form is submitted</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="Table4_5">(n) = number of tags with attribute</a> </p>
+
+<p><a name="Table4_6"><b>Table 4–7 Attributes for</b> <tt>h:form</tt>
+</a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt>,
+      <tt>styleClass</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>accept</tt>, <tt>acceptcharset</tt>, <tt>dir</tt>,
+        <tt>enctype</tt>, <tt>lang</tt>, <tt>style</tt>, <tt>target</tt>,
+        <tt>title</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0 attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt>, <tt>onchange</tt>, <tt>onclick</tt>,
+        <tt>ondblclick</tt>, <tt>onfocus</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onreset</tt>, <tt>onsubmit</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br>
+
+</p><p><a name="Table4_7"><b>Table 4–8 Attributes for</b>
+<tt>h:inputText</tt>, <tt>h:inputSecret,</tt>
+<tt>h:inputTextarea</tt>,<tt></tt><b>and </b> <tt>h:inputHidden</tt></a> </p>
+<br>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>cols</tt> </td>
+      <td>For <tt>h:inputTextarea</tt> only—number of columns</td>
+    </tr>
+    <tr>
+      <td><tt>immediate</tt> </td>
+      <td>Process validation early in the life cycle</td>
+    </tr>
+    <tr>
+      <td><tt>redisplay</tt> </td>
+      <td>For <tt>h:inputSecret</tt> only—when true, the input
+        field’s value is redisplayed when the web page is reloaded</td>
+    </tr>
+    <tr>
+      <td><tt>required</tt> </td>
+      <td>Require input in the component when the form is submitted</td>
+    </tr>
+    <tr>
+      <td><tt>rows</tt> </td>
+      <td>For <tt>h:inputTextarea</tt> only—number of rows</td>
+    </tr>
+    <tr>
+      <td><tt>valueChangeListener</tt> </td>
+      <td>A specified listener that’s notified of value changes</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>converter</tt>, <tt>id</tt>, <tt>rendered</tt>,
+        <tt>required</tt>, <tt>styleClass</tt>, <tt>value</tt>,
+        <tt>validator</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>accesskey</tt>, <tt>alt</tt>, <tt>dir</tt>, <tt>disabled</tt>,
+        <tt>lang</tt>, <tt>maxlength</tt>, <tt>readonly</tt>, <tt>size</tt>,
+        <tt>style</tt>, <tt>tabindex</tt>, <tt>title</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0 pass-through
+        attributes</a>—<tt>alt</tt>, <tt>maxlength</tt>, and
+        <tt>size</tt> do not apply to <tt>h:inputTextarea</tt>. None apply to
+        <tt>h:inputHidden</tt>.</td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt>, <tt>onchange</tt>, <tt>onclick</tt>,
+        <tt>ondblclick</tt>, <tt>onfocus</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onselect</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a>. None apply to
+        <tt>h:inputHidden</tt>.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><a name="Table4_8"><b>Table 4–9 </b> <tt>h:inputText</tt> <b>and </b>
+<tt>h:inputSecret </tt> <b>Examples</b> </a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="75%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Example</b> </td>
+      <td><b>Result</b> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputText value="#{form.testString}"
+        readonly="true"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/input_text_twenty.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputSecret value="#{form.passwd}"
+        redisplay="true"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/input_secret_twenty.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputSecret value="#{form.passwd}"
+        redisplay="false"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/input_text_redisplay_false.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputText value="inputText" style="color: Yellow;
+        background: Teal;"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/input_text_style.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputText value="1234567" size="5"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/input_text_five.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputText value="1234567890" maxlength="6"
+        size="10"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/input_text_6_10.gif"> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><a name="Table4_9"><b>Table 4–10</b> <tt>h:inputTextarea</tt>
+<b>Examples</b> </a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="75%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Example</b> </td>
+      <td><b>Result</b> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputTextarea rows="5"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/textarea_5_rows.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputTextarea cols="5"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/textarea_5_cols.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputTextarea value="123456789012345" rows="3"
+        cols="10"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/textarea_3_rows_10_cols.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:inputTextarea value="#{form.dataInRows}" rows="2"
+        cols="15"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/textarea_data_in_rows.gif"> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><a name="Table4_11"><b>Table 4–11 Attributes for <tt>h:outputText</tt>
+and</b> <tt>h:outputFormat</tt> </a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>escape</tt> </td>
+      <td>If set to true, escapes &lt;, &gt;, and &amp; characters. Default
+        value is <code>true</code>.</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>converter</tt>, <tt>id</tt>, <tt>rendered</tt>,
+        <tt>styleClass</tt>, <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>style</tt>, <tt>title</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><a name="Table4_11a"><b>Attributes for </b> <tt>h:outputLabel</tt> </a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>for</tt> </td>
+      <td>The ID of the component to be labeled.</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>converter</tt>, <tt>id</tt>, <tt>rendered</tt>,
+        <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><a name="Table4_12"><b>Table 4–12 Attributes for </b>
+<tt>h:graphicImage</tt> </a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt>,
+        <tt>styleClass</tt>, <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>alt</tt>, <tt>dir</tt>, <tt>height</tt>, <tt>ismap</tt>,
+        <tt>lang</tt>, <tt>longdesc</tt>, <tt>style</tt>, <tt>title</tt>,
+        <tt>url</tt>, <tt>usemap</tt>, <tt>width</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt>, <tt>onchange</tt>, <tt>onclick</tt>,
+        <tt>ondblclick</tt>, <tt>onfocus</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onmouseup</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><a name="Table4_13"><b>Table 4–13</b> <tt>h:outputText </tt> <b>and
+</b> <tt>h:graphicImage</tt> <b>Examples</b> </a> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="75%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Example</b> </td>
+      <td><b>Result</b> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputText value="#{form.testString}"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/output_twenty.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputText value="Number #{form.number}"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/output_number.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputText value="&lt;input type=’text’
+        value=’hello’/&gt;"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/output_not_escaped.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputText escape="true" value="&lt;input
+        type=’text’ value=’hello’/&gt;"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/output_escaped.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:graphicImage value="/tjefferson.jpg"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/tj.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:graphicImage value="/tjefferson.jpg" style="border: thin
+        solid black"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/tj-with-border.gif"> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><b><a name="Table4_15"><b>Table 4–14 </b> <tt>h:commandButton</tt>
+<b>and </b> <tt>h:commandLink</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>action</tt> </td>
+      <td>If specified as a string: Directly specifies an outcome used by the
+        navigation handler to determine the JSF page to load next as a result
+        of activating the button or link If specified as a method binding: The
+        method has this signature: <tt>String methodName()</tt>; the string
+        represents the outcome</td>
+    </tr>
+    <tr>
+      <td><tt>actionListener</tt> </td>
+      <td>A method binding that refers to a method with this signature:
+        <tt>void methodName(ActionEvent)</tt></td>
+    </tr>
+    <tr>
+      <td><tt>charset</tt> </td>
+      <td>For <tt>h:commandLink</tt> only—The character encoding of the
+        linked reference &nbsp;</td>
+    </tr>
+    <tr>
+      <td><tt>image</tt> </td>
+      <td>For <tt>h:commandButton</tt> only—A context-relative path to an
+        image displayed in a button. If you specify this attribute, the HTML
+        input’s type will be image.</td>
+    </tr>
+    <tr>
+      <td><tt>immediate</tt> </td>
+      <td>A boolean. If false (the default), actions and action listeners are
+        invoked at the end of the request life cycle; if true, actions and
+        action listeners are invoked at the beginning of the life cycle. See
+        Chapter 6 for more information about the <tt>immediate</tt>
+      attribute.</td>
+    </tr>
+    <tr>
+      <td><tt>type</tt> </td>
+      <td>For <tt>h:commandButton</tt>: The type of the generated input
+        element: button, submit, or reset. The default, unless you specify the
+        image attribute, is submit. For <tt>h:commandLink</tt>: The content
+        type of the linked resource; for example, text/html, image/gif, or
+        audio/basic</td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>The label displayed by the button or link. You can specify a string
+        or a value reference expression.</td>
+    </tr>
+    <tr>
+      <td><tt>accesskey</tt>, <tt>alt</tt>, <tt>binding</tt>, <tt>id</tt>,
+        <tt>lang</tt>, <tt>rendered</tt>, <tt>styleClass</tt>,
+      <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>coords</tt> (<tt>h:commandLink</tt> only), <tt>dir</tt>,
+        <tt>disabled</tt> (<tt>h:commandButton</tt> only), <tt>hreflang</tt>
+        (<tt>h:commandLink</tt> only), <tt>lang</tt>, <tt>readonly</tt>,
+        <tt>rel</tt> (<tt>h:commandLink</tt> only), <tt>rev</tt>
+        (<tt>h:commandLink</tt> only), <tt>shape</tt> (<tt>h:commandLink</tt>
+        only), <tt>style</tt>, <tt>tabindex</tt>, <tt>target</tt>
+        (<tt>h:commandLink</tt> only), <tt>title</tt>, <tt>type</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt>, <tt>onchange</tt>, <tt>onclick</tt>,
+        <tt>ondblclick</tt>, <tt>onfocus</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onmouseup</tt>, <tt>onselect</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_16"><b>Table 4–15 </b> <tt>h:commandButton</tt>
+<b>Examples</b> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="75%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b></b> 
+
+        <p><b>Example</b> </p>
+      </td>
+      <td><b>Result</b> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandButton value="submit" type="submit"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/submit-button.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandButton value="reset" type="reset"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/reset-button.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandButton value="click this button..."
+        onclick="alert('button clicked')" type="button"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/js-button.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandButton value="disabled" disabled="#{not
+        form.buttonEnabled}"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/disabled-button.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandButton value="#{form.buttonText}"
+        type="reset"/&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/button-with-model-value.gif"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_17"><b>Table 4–16 </b> <tt>h:commandLink</tt>
+<b>Examples</b> </a> </b> </p>
+<b></b> 
+<table border="1" width="80%">
+  <colgroup><col width="75%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Example</b> </td>
+      <td><b>Result</b> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandLink&gt; &lt;h:outputText value="register"/&gt;
+        &lt;/h:commandLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/command-link-simple.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandLink style="font-style: italic"&gt; &lt;h:outputText
+        value="#{msgs.linkText}"/&gt; &lt;/h:commandLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/command-link-styled.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandLink&gt; &lt;h:outputText
+        value="#{msgs.linkText}"/&gt; &lt;h:graphicImage
+        value="/registration.jpg"/&gt; &lt;/h:commandLink&gt;</tt> </td>
+      <td>&nbsp; 
+
+        <p>&nbsp;</p>
+
+        <p><img alt="." src="./JSFTags_files/registration-lincoln.jpg"> </p>
+      </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandLink value="welcome"
+        actionListener="#{form.useLinkValue}"
+        action="#{form.followLink}"&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/command-link-welcome.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:commandLink&gt; &lt;h:outputText value="welcome"/&gt;
+        &lt;f:param name="outcome" value="welcome"/&gt;
+        &lt;/h:commandLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/command-link-welcome.gif"> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><b><a name="Table4_18"><b>Table 4–17 Attributes for</b>
+<tt>h:outputLink</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>accesskey</tt>, <tt>binding</tt>, <tt>converter</tt>,
+        <tt>id</tt>, <tt>lang</tt>, <tt>rendered</tt>, <tt>styleClass</tt>,
+        <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>charset</tt>, <tt>coords</tt>, <tt>dir</tt>, <tt>hreflang</tt>,
+        <tt>lang</tt>, <tt>rel</tt>, <tt>rev</tt>, <tt>shape</tt>,
+        <tt>style</tt>, <tt>tabindex</tt>, <tt>target</tt>, <tt>title</tt>,
+        <tt>type</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt>, <tt>onchange</tt>, <tt>onclick</tt>,
+        <tt>ondblclick</tt>, <tt>onfocus</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onmouseup</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_19"><b>Table 4–18 </b> <tt>h:outputLink</tt>
+<b>Examples</b> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="75%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Example</b> </td>
+      <td><b>Result</b> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputLink value="http://java.net"&gt; &lt;h:graphicImage
+        value="java-dot-net.jpg"/&gt; &lt;h:outputText value="java.net"/&gt;
+        &lt;/h:outputLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/java-dot-net.jpg"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputLink value="#{form.welcomeURL}"&gt; &lt;h:outputText
+        value="#{form.welcomeLinkText}"/&gt; &lt;/h:outputLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/outputLink-welcome-page.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputLink value="#introduction"&gt; &lt;h:outputText
+        value="Introduction" style="font-style: italic"/&gt;
+        &lt;/h:outputLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/outputLink-introduction.jpg"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputLink value="#conclusion" title="Go to the
+        conclusion"&gt; &lt;h:outputText value="Conclusion"/&gt;
+        &lt;/h:outputLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/outputLink-conclusion.jpg"> </td>
+    </tr>
+    <tr>
+      <td><tt>&lt;h:outputLink value="#toc" title="Go to the table of
+        contents"&gt; &lt;f:verbatim&gt; &lt;h2&gt;Table of Contents&lt;/h2&gt;
+        &lt;/f:verbatim&gt; &lt;/h:outputLink&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/toc.jpg"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_20"><b>Table 4–19 Selection Tag Examples</b> </a>
+</b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="50%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Tag</b> </td>
+      <td><b>Generated HTML</b> </td>
+      <td><b>Examples</b> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectBooleanCheckbox</tt> </td>
+      <td><tt>&lt;input type="checkbox"&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectbooleancheckbox.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectManyCheckbox</tt> </td>
+      <td><tt>&lt;table&gt; ... &lt;label&gt; &lt;input type="checkbox"/&gt;
+        &lt;/label&gt; ... &lt;/table&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectmanycheckbox.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectOneRadio</tt> </td>
+      <td><tt>&lt;table&gt; ... &lt;label&gt; &lt;input type="radio"/&gt;
+        &lt;/label&gt; ... &lt;/table&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectonradio.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectOneListbox</tt> </td>
+      <td><tt>&lt;select&gt; &lt;option value="Cheese"&gt; Cheese
+        &lt;/option&gt; ... &lt;/select&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectonelistbox.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectManyListbox</tt> </td>
+      <td><tt>&lt;select multiple&gt; &lt;option value="Cheese"&gt; Cheese
+        &lt;/option&gt; ... &lt;/select&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectmanylistbox.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectOneMenu</tt> </td>
+      <td><tt>&lt;select size="1"&gt; &lt;option value="Cheese"&gt; Cheese
+        &lt;/option&gt; ... &lt;/select&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectonemenu.gif"> </td>
+    </tr>
+    <tr>
+      <td><tt>h:selectManyMenu</tt> </td>
+      <td><tt>&lt;select multiple size="1"&gt; &lt;option value="Sunday"&gt;
+        Sunday &lt;/option&gt; ... &lt;/select&gt;</tt> </td>
+      <td><img alt="." src="./JSFTags_files/selectmanymenu.gif"> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_21"><b>Table 4–20 Attributes for</b>
+<tt>h:selectBooleanCheckbox</tt>, <tt>h:selectManyCheckbox</tt>,
+<tt>h:selectOneRadio</tt>, <tt>h:selectOneListbox</tt>,
+<tt>h:selectManyListbox</tt>, <tt>h:selectOneMenu</tt>,
+<tt>h:selectManyMenu</tt></a> </b> </p>
+<b></b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>disabledClass</tt> </td>
+      <td>CSS class for disabled elements—for <tt>h:selectOneRadio</tt>
+        and <tt>h:selectManyCheckbox</tt> only</td>
+    </tr>
+    <tr>
+      <td><tt>enabledClass</tt> </td>
+      <td>CSS class for enabled elements—for <tt>h:selectOneRadio</tt>
+        and <tt>h:selectManyCheckbox</tt> only</td>
+    </tr>
+    <tr>
+      <td><tt>layout</tt> </td>
+      <td>Specification for how elements are laid out: <tt>lineDirection</tt>
+        (horizontal) or <tt>pageDirection</tt> (vertical)—for
+        <tt>h:selectOneRadio</tt> and <tt>h:selectManyCheckbox</tt> only</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>converter</tt>, <tt>id</tt>,
+        <tt>immediate</tt>, <tt>styleClass</tt>, <tt>required</tt>,
+        <tt>rendered</tt>, <tt>validator</tt>, <tt>value</tt>,
+        <tt>valueChangeListener</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>accesskey</tt>, <tt>border</tt>, <tt>dir</tt>, <tt>disabled</tt>,
+        <tt>lang</tt>, <tt>readonly</tt>, <tt>style</tt>, <tt>size</tt>,
+        <tt>tabindex</tt>, <tt>title</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a>—<tt>border</tt> is applicable
+        to <tt>h:selectOneRadio</tt> and <tt>h:selectManyCheckbox</tt> only.
+        <tt>size</tt> is applicable to <tt>h:selectOneListbox</tt> and
+        <tt>h:selectManyListbox</tt> only.</td>
+    </tr>
+    <tr>
+      <td><tt>onblur</tt>, <tt>onchange</tt>, <tt>onclick</tt>,
+        <tt>ondblclick</tt>, <tt>onfocus</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onmouseup</tt>, <tt>onselect</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><b><a name="Table4_22"><b>Table 4–21 Attributes for </b>
+<tt>f:selectItem</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <code>id</code></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a></td>
+    </tr>
+    <tr>
+      <td><tt>itemDescription</tt> </td>
+      <td>Description used by tools only</td>
+    </tr>
+    <tr>
+      <td><tt>itemDisabled</tt> </td>
+      <td>Boolean value that sets the item’s disabled property</td>
+    </tr>
+    <tr>
+      <td><tt>itemLabel</tt> </td>
+      <td>Text shown by the item</td>
+    </tr>
+    <tr>
+      <td><tt>itemValue</tt> </td>
+      <td>Item’s value, which is passed to the server as a request
+        parameter</td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>Value binding expression that points to a <tt>SelectItem</tt>
+      instance</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_22a"><b>Attributes for </b> <tt>f:selectItems</tt> </a>
+</b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <code>id</code></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a></td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>Value binding expression that points to a <tt>SelectItem</tt>, an
+        array or <tt>Collection</tt> of <tt>SelectItem</tt> objects, or a
+        <tt>Map</tt> mapping labels to values.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table4_23"><b>Table 4–22 Attributes for </b>
+<tt>h:message</tt> <b>and </b> <tt>h:messages</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>for</tt> </td>
+      <td>The ID of the component whose message is displayed—applicable
+        only to <tt>h:message</tt></td>
+    </tr>
+    <tr>
+      <td><tt>errorClass</tt> </td>
+      <td>CSS class applied to error messages</td>
+    </tr>
+    <tr>
+      <td><tt>errorStyle</tt> </td>
+      <td>CSS style applied to error messages</td>
+    </tr>
+    <tr>
+      <td><tt>fatalClass</tt> </td>
+      <td>CSS class applied to fatal messages</td>
+    </tr>
+    <tr>
+      <td><tt>fatalStyle</tt> </td>
+      <td>CSS style applied to fatal messages</td>
+    </tr>
+    <tr>
+      <td><tt>globalOnly</tt> </td>
+      <td>Instruction to display only global messages—applicable only to
+        <tt>h:messages</tt>. Default: false</td>
+    </tr>
+    <tr>
+      <td><tt>infoClass</tt> </td>
+      <td>CSS class applied to information messages</td>
+    </tr>
+    <tr>
+      <td><tt>infoStyle</tt> </td>
+      <td>CSS style applied to information messages</td>
+    </tr>
+    <tr>
+      <td><tt>layout</tt> </td>
+      <td>Specification for message layout: table or list—applicable only
+        to <tt>h:messages</tt></td>
+    </tr>
+    <tr>
+      <td><tt>showDetail</tt> </td>
+      <td>A boolean that determines whether message details are shown. Defaults
+        are false for <tt>h:messages</tt>, true for <tt>h:message</tt>.</td>
+    </tr>
+    <tr>
+      <td><tt>showSummary</tt> </td>
+      <td>A boolean that determines whether message summaries are shown.
+        Defaults are true for <tt>h:messages</tt>, false for
+      <tt>h:message</tt>.</td>
+    </tr>
+    <tr>
+      <td><tt>tooltip</tt> </td>
+      <td>A boolean that determines whether message details are rendered in a
+        tooltip; the tooltip is only rendered if <tt>showDetail</tt> and
+        <tt>showSummary</tt> are true</td>
+    </tr>
+    <tr>
+      <td><tt>warnClass</tt> </td>
+      <td>CSS class for warning messages</td>
+    </tr>
+    <tr>
+      <td><tt>warnStyle</tt> </td>
+      <td>CSS style for warning messages</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt>,
+      <tt>styleClass</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>style</tt>, <tt>title</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><b><a name="Table4_24">Table 4–23 Attributes for
+<tt>h:panelGrid</tt></a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>bgcolor</tt> </td>
+      <td>Background color for the table</td>
+    </tr>
+    <tr>
+      <td><tt>border</tt> </td>
+      <td>Width of the table’s border</td>
+    </tr>
+    <tr>
+      <td><tt>cellpadding</tt> </td>
+      <td>Padding around table cells</td>
+    </tr>
+    <tr>
+      <td><tt>cellspacing</tt> </td>
+      <td>Spacing between table cells</td>
+    </tr>
+    <tr>
+      <td><tt>columnClasses</tt> </td>
+      <td>Comma-separated list of CSS classes for columns</td>
+    </tr>
+    <tr>
+      <td><tt>columns</tt> </td>
+      <td>Number of columns in the table</td>
+    </tr>
+    <tr>
+      <td><tt>footerClass</tt> </td>
+      <td>CSS class for the table footer</td>
+    </tr>
+    <tr>
+      <td><tt>frame</tt> </td>
+      <td>frame Specification for sides of the frame surrounding the table that
+        are to be drawn; valid values: <tt>none</tt>, <tt>above</tt>,
+        <tt>below</tt>, <tt>hsides</tt>, <tt>vsides</tt>, <tt>lhs</tt>,
+        <tt>rhs</tt>, <tt>box</tt>, <tt>border</tt></td>
+    </tr>
+    <tr>
+      <td><tt>headerClass</tt> </td>
+      <td>CSS class for the table header</td>
+    </tr>
+    <tr>
+      <td><tt>rowClasses</tt> </td>
+      <td>Comma-separated list of CSS classes for columns</td>
+    </tr>
+    <tr>
+      <td><tt>rules</tt> </td>
+      <td>Specification for lines drawn between cells; valid values:
+        <tt>groups</tt>, <tt>rows</tt>, <tt>columns</tt>, <tt>all</tt></td>
+    </tr>
+    <tr>
+      <td><tt>summary</tt> </td>
+      <td>Summary of the table’s purpose and structure used for
+        non-visual feedback such as speech</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt>,
+        <tt>styleClass</tt>, <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>dir</tt>, <tt>lang</tt>, <tt>style</tt>, <tt>title</tt>,
+        <tt>width</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+    <tr>
+      <td><tt>onclick</tt>, <tt>ondblclick</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onmouseup</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<p><b><a name="Table4_25"><b>Table 4–24 Attributes for </b>
+<tt>h:panelGroup</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt>,
+      <tt>styleClass</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>style</tt> </td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table5_1"><b>Table 5–1 Attributes for</b>
+<tt>h:dataTable</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>bgcolor</tt> </td>
+      <td>Background color for the table</td>
+    </tr>
+    <tr>
+      <td><tt>border</tt> </td>
+      <td>width of the table's border</td>
+    </tr>
+    <tr>
+      <td><tt>cellpadding</tt> </td>
+      <td>Padding around table cells</td>
+    </tr>
+    <tr>
+      <td><tt>cellspacing</tt> </td>
+      <td>Spacing between table cells</td>
+    </tr>
+    <tr>
+      <td><tt>columnClasses</tt> </td>
+      <td>comma-separated list of CSS classes for columns</td>
+    </tr>
+    <tr>
+      <td><tt>first</tt> </td>
+      <td>index of the first row shown in the table</td>
+    </tr>
+    <tr>
+      <td><tt>footerClass</tt> </td>
+      <td>CSS class for the table footer</td>
+    </tr>
+    <tr>
+      <td><tt>frame</tt> </td>
+      <td>Specification for sides of the frame surrounding the table should be
+        drawn; valid values: <tt>none</tt>, <tt>above</tt>, <tt>below</tt>,
+        <tt>hsides</tt>, <tt>vsides</tt>, <tt>lhs</tt>, <tt>rhs</tt>,
+        <tt>box</tt>, <tt>border</tt></td>
+    </tr>
+    <tr>
+      <td><tt>headerClass</tt> </td>
+      <td>CSS class for the table header</td>
+    </tr>
+    <tr>
+      <td><tt>rowClasses</tt> </td>
+      <td>comma-separated list of CSS classes for rows<br>
+      </td>
+    </tr>
+    <tr>
+      <td><tt>rules</tt> </td>
+      <td>Specification for lines drawn between cells; valid values:
+        <tt>groups</tt>, <tt>rows</tt>, <tt>columns</tt>, <tt>all</tt></td>
+    </tr>
+    <tr>
+      <td><tt>summary</tt> </td>
+      <td>summary of the table's purpose and structure used for non-visual
+        feedback such as speech</td>
+    </tr>
+    <tr>
+      <td><tt>var</tt> </td>
+      <td>The name of the variable created by the data table that represents
+        the current item in the value</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt>,
+        <tt>styleClass</tt>, <tt>value</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+    <tr>
+      <td><tt>dir</tt>, <tt>lang</tt>, <tt>style</tt>, <tt>title</tt>,
+        <tt>width</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_4">HTML 4.0</a> </td>
+    </tr>
+    <tr>
+      <td><tt>onclick</tt>, <tt>ondblclick</tt>, <tt>onkeydown</tt>,
+        <tt>onkeypress</tt>, <tt>onkeyup</tt>, <tt>onmousedown</tt>,
+        <tt>onmousemove</tt>, <tt>onmouseout</tt>, <tt>onmouseover</tt>,
+        <tt>onmouseup</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_5">DHTML events</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table5_1a"><b>Attributes for </b> <tt>h:column</tt> </a> </b>
+</p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <td><b>Attribute</b> </td>
+      <td><b>Description</b> </td>
+    </tr>
+    <tr>
+      <td><tt>headerClass</tt> (JSF 1.2)</td>
+      <td>CSS class for the column's header</td>
+    </tr>
+    <tr>
+      <td><tt>footerClass</tt> (JSF 1.2) </td>
+      <td>CSS class for the column's footer</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table6_1"><b>Table 6–1 Attributes for </b>
+<tt>f:convertNumber</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="25%">
+    <col width="50%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td><tt>type</tt> </td>
+      <td><tt>String</tt> </td>
+      <td><tt>number</tt> (default), <tt>currency</tt> , or
+      <tt>percent</tt></td>
+    </tr>
+    <tr>
+      <td><tt>pattern</tt> </td>
+      <td><tt>String</tt> </td>
+      <td>Formatting pattern, as defined in
+      <tt>java.text.DecimalFormat</tt></td>
+    </tr>
+    <tr>
+      <td><tt>maxFractionDigits</tt> </td>
+      <td><tt>int</tt> </td>
+      <td>Maximum number of digits in the fractional part</td>
+    </tr>
+    <tr>
+      <td><tt>minFractionDigits</tt> </td>
+      <td><tt>int</tt> </td>
+      <td>Minimum number of digits in the fractional part</td>
+    </tr>
+    <tr>
+      <td><tt>maxIntegerDigits</tt> </td>
+      <td><tt>int</tt> </td>
+      <td>Maximum number of digits in the integer part</td>
+    </tr>
+    <tr>
+      <td><tt>minIntegerDigits</tt> </td>
+      <td><tt>int</tt> </td>
+      <td>Minimum number of digits in the integer part</td>
+    </tr>
+    <tr>
+      <td><tt>integerOnly</tt> </td>
+      <td><tt>boolean</tt> </td>
+      <td>True if only the integer part is parsed (default: false)</td>
+    </tr>
+    <tr>
+      <td><tt>groupingUsed</tt> </td>
+      <td><tt>boolean</tt> </td>
+      <td>True if grouping separators are used (default: true)</td>
+    </tr>
+    <tr>
+      <td><tt>locale</tt> </td>
+      <td><tt>java.util.Locale</tt> </td>
+      <td>Locale whose preferences are to be used for parsing and
+      formatting</td>
+    </tr>
+    <tr>
+      <td><tt>currencyCode</tt> </td>
+      <td><tt>String</tt> </td>
+      <td>ISO 4217 currency code to use when converting currency values</td>
+    </tr>
+    <tr>
+      <td><tt>currencySymbol</tt> </td>
+      <td><tt>String</tt> </td>
+      <td>Currency symbol to use when converting currency values</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table6_2"><b>Table 6–2 Attributes for </b>
+<tt>f:convertDateTime</tt> </a> </b> </p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="25%">
+    <col width="50%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Type</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td><tt>type</tt> </td>
+      <td><tt>String</tt> </td>
+      <td><tt>date</tt> (default), <tt>time</tt>, or <tt>both</tt></td>
+    </tr>
+    <tr>
+      <td><tt>dateStyle</tt> </td>
+      <td><tt>String</tt> </td>
+      <td><tt>default</tt>, <tt>short</tt>, <tt>medium</tt>, <tt>long</tt>, or
+        <tt>full</tt></td>
+    </tr>
+    <tr>
+      <td><tt>timeStyle</tt> </td>
+      <td><tt>String</tt> </td>
+      <td><tt>default</tt>, <tt>short</tt>, <tt>medium</tt>, <tt>long</tt>, or
+        <tt>full</tt></td>
+    </tr>
+    <tr>
+      <td><tt>pattern</tt> </td>
+      <td><tt>String</tt> </td>
+      <td>Formatting pattern, as defined in
+      <tt>java.text.SimpleDateFormat</tt></td>
+    </tr>
+    <tr>
+      <td><tt>locale</tt> </td>
+      <td><tt>java.util.Locale</tt> </td>
+      <td>Locale whose preferences are to be used for parsing and
+      formatting</td>
+    </tr>
+    <tr>
+      <td><tt>timeZone</tt> </td>
+      <td><tt>java.util.TimeZone</tt> </td>
+      <td>Time zone to use for parsing and formatting</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="Table6_3"><b>Table 6–3 Standard Validators</b> </a> </b>
+</p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="25%">
+    <col width="25%">
+    <col width="25%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>JSP Tag</th>
+      <th>Validator Class</th>
+      <th>Attributes</th>
+      <th>Validates</th>
+    </tr>
+    <tr>
+      <td><tt>f:validateDoubleRange</tt> </td>
+      <td><tt>DoubleRangeValidator</tt> </td>
+      <td><tt>minimum</tt>, <tt>maximum</tt></td>
+      <td>a <tt>double</tt> value within an optional range</td>
+    </tr>
+    <tr>
+      <td><tt>f:validateLongRange</tt> </td>
+      <td><tt>LongRangeValidator</tt> </td>
+      <td><tt>minimum</tt>, <tt>maximum</tt></td>
+      <td>a <tt>long</tt> value within an optional range</td>
+    </tr>
+    <tr>
+      <td><tt>f:validateLength</tt> </td>
+      <td><tt>LengthValidator</tt> </td>
+      <td><tt>minimum</tt>, <tt>maximum</tt></td>
+      <td>a <tt>String</tt> with a minimum and maximum number of characters</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><a name="f_view"><b><b>Attributes for</b> <tt>f:view</tt> </b> </a> </b>
+</p>
+
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>locale</tt> </td>
+      <td>The locale for this view.</td>
+    </tr>
+    <tr>
+      <td><tt>renderKitId</tt> (JSF 1.2)</td>
+      <td>The render kit ID for this view</td>
+    </tr>
+    <tr>
+      <td><tt>beforePhase</tt>, <tt>afterPhase</tt></td>
+      <td>Phase listeners that are called in every phase except "restore
+      view"</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><b><a name="f_subview"><b>Attributes for</b> <tt>f:subview</tt> </a> </b>
+</b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt>, <tt>rendered</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><b><a name="f_facet"><b>Attributes for</b> <tt>f:facet</tt> </a> </b>
+</b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>name</tt> </td>
+      <td>The name of this facet.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><b><a name="f_attribute"><b>Attributes for</b> <tt>f:attribute</tt> </a>
+</b> </b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>name</tt> </td>
+      <td>The name of the attribute to set.</td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>The value of the attribute.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><b><a name="f_param"><b>Attributes for</b> <tt>f:param</tt> </a> </b>
+</b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>name</tt> </td>
+      <td>An optional name for this parameter component.</td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>The value stored in this component.</td>
+    </tr>
+    <tr>
+      <td><tt>binding</tt>, <tt>id</tt></td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><b><b><a name="f_actionListener"><b>Attributes for
+</b><tt>f:actionListener</tt>, <tt>f:valueChangeListener</tt></a> </b> </b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>type</tt> </td>
+      <td>The name of the listener class</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="f_propertyChangeListener"><strong>Attributes for
+f:propertyChangeListener</strong></a></p>
+
+<table border="1">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>target</tt> </td>
+      <td>The bean property to set when the action event occurs</td>
+    </tr>
+    <tr>
+      <td><code>value</code></td>
+      <td>The value to set it to</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<p><b><b><a name="f_converter"><b>Attributes for</b> <tt>f:converter</tt> </a>
+</b> </b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>converterId</tt> </td>
+      <td>The ID of the converter</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<b><b></b> </b> 
+<p><b><b><a name="f_validator"><b>Attributes for</b> <tt>f:validator</tt> </a>
+</b> </b> </p>
+<b></b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>validatorId</tt> </td>
+      <td>The ID of the validator</td>
+    </tr>
+  </tbody>
+</table>
+<b><br>
+</b> 
+<p><b><b><a name="f_loadBundle"><b>Attributes for</b> <tt>f:loadBundle</tt>
+</a> </b> </b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>basename</tt> </td>
+      <td>The resource bundle name</td>
+    </tr>
+    <tr>
+      <td><tt>value</tt> </td>
+      <td>The name of the variable that is bound to the bundle map</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<b><b></b> </b> 
+<p><b><b><a name="f_verbatim"><b>Attributes for</b> <tt>f:verbatim</tt> </a>
+</b> </b> </p>
+<b><b></b> </b> 
+<table border="1" width="80%">
+  <colgroup><col width="25%">
+    <col width="75%">
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>Attribute</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><tt>escape</tt> </td>
+      <td>If set to true, escapes &lt;, &gt;, and &amp; characters. Default
+        value is false.</td>
+    </tr>
+    <tr>
+      <td><tt>rendered</tt> (JSF 1.2)</td>
+      <td><a href="http://www.corejsf.com/jsf-tags.html#Table4_3">Basic attributes</a> </td>
+    </tr>
+  </tbody>
+</table>
+<b><b><br>
+</b> </b> <br>
+<p></p>
+
+
+</body></html>

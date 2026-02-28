@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <title>Ejemplo Cabeceros</title>
+    </head>
+    <body>
+      <h1>Ejemplo de Cabeceros</h1>
+      <a href="/ManejoCabeceros/ServletHeaders">Link al ServletHeaders</a>
+    </body>
+</html>

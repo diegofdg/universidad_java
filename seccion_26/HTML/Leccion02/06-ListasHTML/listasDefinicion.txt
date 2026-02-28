@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Listas de Definiciones</title>
+    </head>
+    <body>
+        <h1>Listas de Definiciones</h1>
+
+        <dl>
+            <dt>Uno</dt>
+            <dd>Es el primer elemento, sin contar el cero</dd>
+
+            <dt>Dos</dt>
+            <dd>Es el numero despues del uno</dd>
+
+            <dt>Tres</dt>
+            <dd>Numero despues del dos</dd>
+        </dl>
+    </body>
+</html>

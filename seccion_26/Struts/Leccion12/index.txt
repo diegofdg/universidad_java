@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entrar al Sistema</title>
+    </head>
+    <body>
+        <a href="ajax">Ejemplo Ajax Basico</a>
+        <br/><br/>
+        <a href="paises">Ejemplo Autocompletar</a>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejemplo Scriptlets JSP</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Ejemplo de Scriplets con JSPs</h1>
+        <br>
+        <br>
+        <a href="scriptlets.jsp">Ejemplos de Scriplets</a>
+        <br>
+        <br>
+        <!-- formulario -->
+        <form action="fondoColor.jsp">
+            Proporciona el color de fondo (ej. red, blue, etc)
+            <input type="text" name="colorFondo">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hola con HTML</title>
+        <meta charset="UTF-8">
+        <!--Elimina un warning de Netbeans-->
+        <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    </head>
+    <body>
+        Hola Mundo con HTML
+    </body>
+</html>

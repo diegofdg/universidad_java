@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Entrar al Sistema</title>
+    </head>
+    <body>
+        <a href="bienvenidoAction">Entrar al Sistema</a>
+    </body>
+</html>

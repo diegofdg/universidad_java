@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Link 1</title>
+    </head>
+    <body>
+        <h1>Link 1</h1>
+        <!--Con la notacion (..) 
+        subimos un nivel respecto de la carpeta actual-->
+        Regresamos a <a href="../index.html">index</a>
+    </body>
+</html>
