@@ -1,0 +1,4 @@
+sga\servicio\PersonaServiceRemote.class
+sga\cliente\ClientePersonaService.class
+sga\domain\Persona.class
+sga\servicio\PersonaServiceImpl.class
