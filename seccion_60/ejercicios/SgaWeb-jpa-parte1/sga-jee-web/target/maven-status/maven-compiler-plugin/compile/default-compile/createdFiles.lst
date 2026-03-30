@@ -1,0 +1,5 @@
+sga\servicio\PersonaService.class
+sga\servicio\PersonaServiceRemote.class
+sga\web\PersonaServlet.class
+sga\domain\Persona.class
+sga\servicio\PersonaServiceImpl.class
