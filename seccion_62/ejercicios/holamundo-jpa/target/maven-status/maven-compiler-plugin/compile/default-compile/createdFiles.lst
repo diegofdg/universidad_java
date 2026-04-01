@@ -1,0 +1,9 @@
+sga\cliente\ClientePersona.class
+sga\cliente\ciclodevida\EncontrarObjetoJPA.class
+sga\cliente\ciclodevida\ActualizarObjetoSesionLarga.class
+sga\domain\Persona.class
+sga\cliente\ciclodevida\ActualizarObjetoJPA.class
+sga\cliente\ciclodevida\PersistirObjetoJPA.class
+sga\cliente\ciclodevida\EliminarObjetoJPA.class
+sga\domain\Usuario.class
+sga\cliente\asociaciones\ClienteAsociacionesJPA.class
