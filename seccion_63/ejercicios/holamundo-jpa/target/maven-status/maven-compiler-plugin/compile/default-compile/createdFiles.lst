@@ -1,0 +1,12 @@
+sga\cliente\ClientePersona.class
+sga\cliente\ciclodevida\EncontrarObjetoJPA.class
+sga\cliente\ciclodevida\ActualizarObjetoSesionLarga.class
+sga\cliente\jpql\PruebaJPQL.class
+sga\domain\Usuario.class
+sga\cliente\cascade\PersistenciaCascadaJPA.class
+sga\domain\Persona.class
+sga\cliente\ciclodevida\ActualizarObjetoJPA.class
+sga\cliente\ciclodevida\PersistirObjetoJPA.class
+sga\cliente\ciclodevida\EliminarObjetoJPA.class
+.netbeans_automatic_build
+sga\cliente\asociaciones\ClienteAsociacionesJPA.class
