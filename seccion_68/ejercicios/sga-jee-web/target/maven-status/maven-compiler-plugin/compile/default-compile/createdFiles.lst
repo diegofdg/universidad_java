@@ -1,0 +1,15 @@
+sga\datos\PersonaDaoImpl.class
+sga\servicio\PersonaServiceWs.class
+sga\servicio\UsuarioServiceImpl.class
+sga\servicio\UsuarioServiceRemote.class
+sga\domain\Usuario.class
+sga\datos\UsuarioDao.class
+sga\datos\UsuarioDaoImpl.class
+sga\web\PersonaBean.class
+sga\datos\PersonaDao.class
+sga\servicio\UsuarioService.class
+sga\domain\Persona.class
+sga\servicio\PersonaServiceRS.class
+sga\servicio\PersonaService.class
+sga\servicio\PersonaServiceRemote.class
+sga\servicio\PersonaServiceImpl.class
