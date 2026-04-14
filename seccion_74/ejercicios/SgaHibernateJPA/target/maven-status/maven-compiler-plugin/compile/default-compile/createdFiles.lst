@@ -1,0 +1,16 @@
+sga\dao\GenericDAO.class
+sga\test\ciclovida\Estado2RecuperarObjetoPersistente.class
+sga\dao\DomicilioDAO.class
+sga\test\ciclovida\Estado1Persistido.class
+sga\domain\Asignacion.class
+sga\dao\AlumnoDAO.class
+sga\dao\ContactoDAO.class
+sga\domain\Curso.class
+sga\domain\Alumno.class
+sga\test\TestDAOs.class
+sga\test\ciclovida\Estado3ModificarObjetoPersistente.class
+sga\dao\AsignacionDAO.class
+sga\domain\Contacto.class
+SgaHibernateJPA.class
+sga\domain\Domicilio.class
+sga\dao\CursoDAO.class
