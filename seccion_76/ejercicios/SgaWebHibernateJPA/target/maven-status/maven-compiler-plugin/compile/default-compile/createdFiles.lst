@@ -1,0 +1,16 @@
+sga\web\ServletRedireccionar.class
+sga\servicio\ServicioAlumno.class
+sga\dao\GenericDAO.class
+sga\web\ServletControlador.class
+sga\dao\DomicilioDAO.class
+sga\web\ServletModificar.class
+sga\domain\Asignacion.class
+sga\dao\AlumnoDAO.class
+sga\dao\ContactoDAO.class
+sga\domain\Curso.class
+sga\web\ServletAgregar.class
+sga\domain\Alumno.class
+sga\dao\AsignacionDAO.class
+sga\domain\Contacto.class
+sga\domain\Domicilio.class
+sga\dao\CursoDAO.class

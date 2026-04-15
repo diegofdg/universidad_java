@@ -1,0 +1,16 @@
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\dao\AlumnoDAO.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\dao\AsignacionDAO.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\dao\ContactoDAO.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\dao\CursoDAO.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\dao\DomicilioDAO.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\dao\GenericDAO.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\domain\Alumno.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\domain\Asignacion.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\domain\Contacto.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\domain\Curso.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\domain\Domicilio.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\servicio\ServicioAlumno.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\web\ServletAgregar.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\web\ServletControlador.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\web\ServletModificar.java
+C:\Cursos\Hibernate\SgaWebHibernateJPA\src\main\java\sga\web\ServletRedireccionar.java
