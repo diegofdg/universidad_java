@@ -1,0 +1,21 @@
+<div style="text-align: center">
+  <button style="cursor: pointer" (click)="irAgregar()">+</button>
+</div>
+
+
+<div class="box">
+  @for (persona of personas; track persona.idPersona) {
+  <div class="item">
+    <ul>
+      <li>
+        <a [routerLink]="['/personas', persona.idPersona]">
+          {{persona.nombre}}
+        </a>
+      </li>
+    </ul>
+  </div>
+  }
+</div>
+
+<!-- incrusta el componente de formulario -->
+<router-outlet></router-outlet>
